@@ -3,7 +3,7 @@
 int main(){
 	
 	int opc;
-	
+	do{
 	printf("____________________________________\n");
 	printf("|         Google agencias          |\n");
 	printf("____________________________________\n");
@@ -15,7 +15,7 @@ int main(){
 	printf("____________________________________\n");
 	scanf("%d",&opc);
 	
-	
+	} while(opc<=0||opc>5);
 	switch(opc){
 	
 	case 1:
